@@ -1,0 +1,65 @@
+\documentclass{letter}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{courier}
+% Load the parskip package with skip and indent options
+\usepackage[skip=20pt plus1pt]{parskip}
+
+\pagestyle{fancy}
+\fancyhf{}  % Clear all header and footer fields
+\fancyhead[L]{}
+\fancyhead[C]{}
+\fancyhead[R]{}
+\renewcommand*{\headrulewidth}{0pt}
+
+\begin{document}
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/background.png}}
+
+\begin{center}
+    
+\includegraphics[width=3in]{C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/header_pisa.png}
+
+% \begin{flushright}
+%     \textbf{Ciudad de México, a 3 de octubre de 2024}   
+% \end{flushright} 
+\vspace{3\baselineskip}
+\textbf{{\LARGE Formato de Acceso al Cuestionario Escolar}} \\
+\vspace{.5\baselineskip}
+{\LARGE \textbf{PISA 2025} Aplicación piloto}
+
+\begin{tabular}{p{9cm}}
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{3pt}{{Principal}} \vspace{3pt} \\ \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Nombre del Director} \\ \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{2pt}{{School}} \vspace{3pt} \\ \hline
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Nombre de la escuela} \\ \hline            
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{2pt}{{CCTID}} \vspace{3pt} \\ \hline
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{CCT} \\ \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{2pt}{{User}} \vspace{3pt} \\ \hline
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Nombre de usuario} \\ \hline            
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{2pt}{{Password}} \vspace{3pt} \\ \hline
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Contraseña} \\ \hline            
+\end{tabular}
+
+Liga de acceso al Cuestionario Escolar: \\
+\vspace{.5\baselineskip}
+\textbf{pisa2025.org/locale/es}
+
+
+\end{center}
+
+\end{document}

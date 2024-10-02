@@ -1,0 +1,527 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.11)  26 SEP 2024 22:49
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/template/StockReception/stockreception.tex
+(c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/template/StockReception/stockreception.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+(c:/texlive/2024/texmf-dist/tex/latex/base/letter.cls
+Document Class: letter 2021/12/07 v1.3c Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\longindentation=\dimen140
+\indentedwidth=\dimen141
+\labelcount=\count188
+) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen142
+\Gin@req@width=\dimen143
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count189
+\Gm@cntv=\count190
+\c@Gm@tempcnt=\count191
+\Gm@bindingoffset=\dimen144
+\Gm@wd@mp=\dimen145
+\Gm@odd@mp=\dimen146
+\Gm@even@mp=\dimen147
+\Gm@layoutwidth=\dimen148
+\Gm@layoutheight=\dimen149
+\Gm@layouthoffset=\dimen150
+\Gm@layoutvoffset=\dimen151
+\Gm@dimlist=\toks18
+) (c:/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
+Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
+ (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count192
+)) (c:/texlive/2024/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+ (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen152
+\ar@mcellbox=\box51
+\extrarowheight=\dimen153
+\NC@list=\toks19
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box52
+)
+\TX@col@width=\dimen154
+\TX@old@table=\dimen155
+\TX@old@col=\dimen156
+\TX@target=\dimen157
+\TX@delta=\dimen158
+\TX@cols=\count193
+\TX@ftn=\toks20
+) (c:/texlive/2024/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count194
+\multirow@dima=\skip60
+\bigstrutjot=\dimen159
+) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count195
+\l__pdf_internal_box=\box53
+) (./stockreception.aux)
+\openout1 = `stockreception.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+ (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count196
+\scratchdimen=\dimen160
+\scratchbox=\box54
+\nofMPsegments=\count197
+\nofMParguments=\count198
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count199
+\MPscratchDim=\dimen161
+\MPnumerator=\count266
+\makeMPintoPDFobject=\count267
+\everyMPtoPDFconversion=\toks22
+) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(45.80893pt, 505.89pt, 45.80894pt)
+* v-part:(T,H,B)=(77.84674pt, 650.43pt, 116.77011pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=505.89pt
+* \textheight=650.43pt
+* \oddsidemargin=-26.46106pt
+* \evensidemargin=-26.46106pt
+* \topmargin=-51.42325pt
+* \headheight=12.0pt
+* \headsep=45.0pt
+* \topskip=10.0pt
+* \footskip=25.0pt
+* \marginparwidth=90.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 2.0pt minus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/template/StockReception/stockreception.tex:57: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.57 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/template/StockReception/stockreception.tex:57: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.57 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/template/StockReception/stockreception.tex:57: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.57 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/template/StockReception/stockreception.tex:57: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.57 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmr/bx/n/10 Recibido
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/bx/n/10 por apli-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmr/bx/n/10 No uti-
+ []
+
+
+Underfull \hbox (badness 2261) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 Formato de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 De-voluci^^Son
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 de Ma-te-rial
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 (orig-i-nal y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 C^^Sedula de
+ []
+
+
+Underfull \hbox (badness 3058) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 Reg-istro de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 la Sesi^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 C^^Sedula de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 reg-istro de
+ []
+
+
+Underfull \hbox (badness 3364) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 alum-nos de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 la Sesi^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 Informe de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 Sesi^^Son de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 la sesi^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 prin-ci-pal
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 (orig-i-nal y
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 Informe de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 Sesi^^Son de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 la sesi^^Son
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 adi-cional
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 (orig-i-nal y
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 ac-ceso a la
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 prueba de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 los es-tu-di-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 Formato
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 de ac-ceso
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 al Cues-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 tionario
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 Es-co-lar
+ []
+
+
+Underfull \hbox (badness 2285) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 (ID y con-
+ []
+
+
+Underfull \hbox (badness 1681) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 Hojas blan-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 Formato
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 para Re-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 por-tar el
+ []
+
+
+Underfull \hbox (badness 1264) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 Ex-trav^^S^^Po de
+ []
+
+
+Underfull \hbox (badness 2065) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 Ma-te-rial de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 Carta de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 agradec-
+ []
+
+
+Underfull \hbox (badness 1715) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 imiento por
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 su par-tic-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--57
+\OT1/cmr/m/n/10 i-paci^^Son al
+ []
+
+
+Overfull \hbox (57.50554pt too wide) in paragraph at lines 57--57
+[]|[]
+ []
+
+c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/template/StockReception/stockreception.tex:57: Extra alignment tab has been changed to \cr.
+<recently read> \endtemplate 
+                             
+l.57 \end{tabularx}
+                   
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+
+Underfull \hbox (badness 1286) in paragraph at lines 57--57
+[]|\OT1/cmr/m/n/10 Etiqueta de
+ []
+
+<C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png, id=1, 67.75313pt x 82.80937pt>
+File: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png Graphic file (type png)
+<use C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png>
+Package pdftex.def Info: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png  used on input line 64.
+(pdftex.def)             Requested size: 36.135pt x 44.16673pt.
+<C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png, id=3, 244.66406pt x 154.32657pt>
+File: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png Graphic file (type png)
+<use C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png>
+Package pdftex.def Info: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png  used on input line 64.
+(pdftex.def)             Requested size: 65.04256pt x 41.02585pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 47.76677pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.76677pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-35.76677pt}.
+
+[1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+ <c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png> <c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png>]
+Overfull \vbox (155.3699pt too high) has occurred while \output is active []
+
+File: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png Graphic file (type png)
+<use C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png>
+Package pdftex.def Info: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png  used on input line 64.
+(pdftex.def)             Requested size: 36.135pt x 44.16673pt.
+File: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png Graphic file (type png)
+<use C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png>
+Package pdftex.def Info: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png  used on input line 64.
+(pdftex.def)             Requested size: 65.04256pt x 41.02585pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 47.76677pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.76677pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-35.76677pt}.
+
+[2]
+File: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png Graphic file (type png)
+<use C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png>
+Package pdftex.def Info: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_ceneval.png  used on input line 66.
+(pdftex.def)             Requested size: 36.135pt x 44.16673pt.
+File: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png Graphic file (type png)
+<use C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png>
+Package pdftex.def Info: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/logo_pisa.png  used on input line 66.
+(pdftex.def)             Requested size: 65.04256pt x 41.02585pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 47.76677pt, for example:
+(fancyhdr)                \setlength{\headheight}{47.76677pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-35.76677pt}.
+
+[3] (./stockreception.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-03-14>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 2878 strings out of 474104
+ 46449 string characters out of 5747502
+ 1951496 words of memory out of 5000000
+ 25252 multiletter control sequences out of 15000+600000
+ 558377 words of font info for 37 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,16n,65p,611b,381s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb>
+Output written on stockreception.pdf (3 pages, 98676 bytes).
+PDF statistics:
+ 29 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+

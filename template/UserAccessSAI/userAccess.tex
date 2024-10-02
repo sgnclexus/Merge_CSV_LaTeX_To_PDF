@@ -1,0 +1,71 @@
+\documentclass{letter}
+
+\usepackage{fancyhdr}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{courier}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+% Load the parskip package with skip and indent options
+\usepackage[skip=20pt plus1pt]{parskip}
+
+\pagestyle{fancy}
+\fancyhf{}  % Clear all header and footer fields
+\fancyhead[L]{}
+\fancyhead[C]{}
+\fancyhead[R]{}
+\renewcommand*{\headrulewidth}{0pt}
+
+
+
+\begin{document}
+\AddToShipoutPictureBG*{\includegraphics[width=\paperwidth,height=\paperheight]{C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/background.png}}
+
+\begin{center}
+    
+\includegraphics[width=3in]{C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/header_pisa.png}
+
+% \begin{flushright}
+%     \textbf{Ciudad de México, a 3 de octubre de 2024}   
+% \end{flushright} 
+\vspace{3\baselineskip}
+\textbf{{\LARGE Formato de acceso a la plataforma}} \\
+\textbf{{\LARGE de evaluación del estudiante}} \\
+\vspace{.5\baselineskip}
+{\LARGE Aplicación piloto PISA 2025}
+
+\begin{tabular}{p{10cm}}
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{3pt}{{LineID}} \vspace{3pt} \\ \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Núm. de Línea:} \\ \hline            
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{3pt}{{Student}} \vspace{3pt} \\ \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Nombre del estudiante} \\ \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{2pt}{{School}} \vspace{3pt} \\ \hline
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Nombre de la escuela} \\ \hline            
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{2pt}{{CCTID}} \vspace{3pt} \\ \hline
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{CCT} \\ \hline            
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{3pt}{{Type}} \vspace{3pt} \\ \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Modalidad: (Tipo de escuela)} \\ \hline        
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{2pt}{{User}} \vspace{3pt} \\ \hline
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Nombre de usuario: (ID del estudiante)} \\ \hline            
+    \noalign{\global\setlength{\arrayrulewidth}{1pt}}  % Remove borders for the next rows
+    \vspace{2pt}{{Password}} \vspace{3pt} \\ \hline
+    \noalign{\global\setlength{\arrayrulewidth}{0pt}}  % Remove borders for the next rows
+    \multicolumn{1}{l}{Contraseña} \\ \hline            
+\end{tabular}
+
+\end{center}
+
+\end{document}
