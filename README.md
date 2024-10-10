@@ -109,9 +109,10 @@ Gretting PDF File
 
 ![alt text](img/image.png)
 
+
 Student User PDF File
 
-![alt text](img/image-1.png)
+![alt text](img/image_1.png)
 
 ## Usage <a name = "usage"></a>
 
