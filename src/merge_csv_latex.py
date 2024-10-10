@@ -58,14 +58,12 @@ def grettings_generator():
         if platform.system() == "Windows":
             print(f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log")
             subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.aux"], shell=True)  # Windows command
-        else:
-            subprocess.run(["rm", f"output\\Grettings\\{pdf_filename.replace(".pdf","")}.log", f"output\\Grettings\\{pdf_filename}.aux"])  # Unix/Linux command
-
-        # Optionally, remove the .tex file after PDF generation if not needed
-        if platform.system() == "Windows":
             subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\output.tex"], shell=True)
         else:
+            subprocess.run(["rm", f"output\\Grettings\\{pdf_filename.replace(".pdf","")}.log", f"output\\Grettings\\{pdf_filename}.aux"])  # Unix/Linux command
             subprocess.run(["rm", "output.tex"])
+
+            
 
 def principalAccess_generator():
     """
@@ -102,12 +100,8 @@ def principalAccess_generator():
             subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\output.tex"], shell=True)
         else:
             subprocess.run(["rm", f"output\\Grettings\\{pdf_filename.replace(".pdf","")}.log", f"output\\Grettings\\{pdf_filename}.aux"])  # Unix/Linux command
-
-        # Optionally, remove the .tex file after PDF generation if not needed
-        if platform.system() == "Windows":
-            
-        else:
             subprocess.run(["rm", "output.tex"])
+
 
 
 def studentAccess_generator():
