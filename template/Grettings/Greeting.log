@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.3)  3 OCT 2024 01:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.3)  9 OCT 2024 23:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -150,29 +150,29 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-</Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg, id=1, 332.74312pt x 129.48375pt>
-File: /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg Graphic file (type jpg)
-<use /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg>
-Package pdftex.def Info: /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg  used on input line 56.
-(pdftex.def)             Requested size: 180.67499pt x 70.30939pt.
+</Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg, id=1, 501.875pt x 301.125pt>
+File: /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg Graphic file (type jpg)
+<use /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg>
+Package pdftex.def Info: /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg  used on input line 56.
+(pdftex.def)             Requested size: 108.405pt x 65.03926pt.
 [1
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg>] (./Greeting.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg>] (./Greeting.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2704 strings out of 474116
- 44163 string characters out of 5743682
- 1930187 words of memory out of 5000000
- 25071 multiletter control sequences out of 15000+600000
+ 2702 strings out of 474116
+ 44070 string characters out of 5743682
+ 1929187 words of memory out of 5000000
+ 25069 multiletter control sequences out of 15000+600000
  558674 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,15n,65p,646b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,15n,65p,623b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Greeting.pdf (1 page, 46063 bytes).
+Output written on Greeting.pdf (1 page, 38758 bytes).
 PDF statistics:
  19 PDF objects out of 1000 (max. 8388607)
  10 compressed objects within 1 object stream

@@ -85,7 +85,7 @@ With this configuration the extension LaTeX Workshop will work!
 
 After this use any extension of vs code to preview the result of your LaTeX template. In this example we use  
 
-![alt text](image.png)
+![alt text](img/Readme_image1.png)
 
 In the case of the python file, I recommend you to install a virtual environment with the libraries you need.
 
@@ -97,7 +97,21 @@ source venv/bin/activate
 ```
 
 
-End with an example of getting some data out of the system or using it for a little demo.
+Example of output.
+
+```
+python src/merge_csv_latex.py
+```
+
+The output for each row in the csv file
+
+Gretting PDF File
+
+![alt text](img/image.png)
+
+Student User PDF File
+
+![alt text](img/image-1.png)
 
 ## Usage <a name = "usage"></a>
 

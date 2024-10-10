@@ -1,4 +1,5 @@
-*.pdf
 venv
-*.csv
 *.zip
+*.xlsx
+*.log
+*.aux

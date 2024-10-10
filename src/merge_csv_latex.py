@@ -34,13 +34,13 @@ def grettings_generator():
     Function to generate a PDF File (Greeting Document) from LaTeX using python to get info from csv
     """
 
-    dfSchools = pd.read_csv("data\Schools.csv", sep=",", encoding="utf-8")
+    dfSchools = pd.read_csv("data/Schools.csv", sep=",", encoding="utf-8")
     dfSchools["dir_nom"] = dfSchools["dir_nom"].apply(to_camel_case)
     dfSchools["CCT_nom"] = dfSchools["CCT_nom"].apply(to_camel_case)
 
     for index, row in dfSchools.iterrows():
         
-        with open(f"template\Grettings\Greeting.tex", "r", encoding="utf-8") as template_file:
+        with open(f"template/Grettings/Greeting.tex", "r", encoding="utf-8") as template_file:
             latex_content = template_file.read()
 
         latex_content = latex_content.replace("{{Principal}}", row["dir_nom"])
@@ -49,58 +49,21 @@ def grettings_generator():
         with open("output.tex", "w", encoding="utf-8") as output_file:
             output_file.write(latex_content)
 
-        pdf_filename = f"output\Grettings\{row["CCT"]}_Agradecimiento.pdf"
+        pdf_filename = f"output/Grettings/{row["CCT"]}_Agradecimiento.pdf"
 
         subprocess.run(["pdflatex", "-jobname="+pdf_filename.replace(".pdf",""), "output.tex"])
 
         # Clean up auxiliary files (optional)
         # Detect the OS and use the appropriate file deletion command
-        if platform.system() == "Windows":
-            print(f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log")
-            subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.aux"], shell=True)  # Windows command
-            subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\output.tex"], shell=True)
-        else:
-            subprocess.run(["rm", f"output\\Grettings\\{pdf_filename.replace(".pdf","")}.log", f"output\\Grettings\\{pdf_filename}.aux"])  # Unix/Linux command
-            subprocess.run(["rm", "output.tex"])
+        # if platform.system() == "Windows":
+        #     print(f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log")
+        #     subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.aux"], shell=True)  # Windows command
+        #     subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\output.tex"], shell=True)
+        # else:
+        #     subprocess.run(["rm", f"output\\Grettings\\{pdf_filename.replace(".pdf","")}.log", f"output\\Grettings\\{pdf_filename}.aux"])  # Unix/Linux command
+        #     subprocess.run(["rm", "output.tex"])
 
             
-
-def principalAccess_generator():
-    """
-    Function to generate a PDF File (Login Access Document) from LaTeX using python to get info from csv
-    """    
-
-    dfSchools = pd.read_csv(f"data\Schools.csv", sep=",", encoding="utf-8")
-    dfSchools["dir_nom"] = dfSchools["dir_nom"].apply(to_camel_case)
-    dfSchools["CCT_nom"] = dfSchools["CCT_nom"].apply(to_camel_case)
-
-    for index, row in dfSchools.iterrows():
-        
-        with open(f"template\PrincipalAccess\principalAccess.tex", "r", encoding="utf-8") as template_file:
-            latex_content = template_file.read()
-
-        latex_content = latex_content.replace("{{Principal}}", row["dir_nom"])
-        latex_content = latex_content.replace("{{School}}", row["CCT_nom"])
-        latex_content = latex_content.replace("{{CCTID}}", row["CCT"])
-        latex_content = latex_content.replace("{{User}}", str(row["Sch_login"]))
-        latex_content = latex_content.replace("{{Password}}", str(row["Sch_password"]))
-
-        with open("output.tex", "w", encoding="utf-8") as output_file:
-            output_file.write(latex_content)
-
-        pdf_filename = f"output\PrincipalAccess\{row["CCT"]}_DirectorAcceso.pdf"
-
-        subprocess.run(["pdflatex", "-jobname="+pdf_filename.replace(".pdf",""), "output.tex"])
-
-        # Clean up auxiliary files (optional)
-        # Detect the OS and use the appropriate file deletion command
-        if platform.system() == "Windows":
-            print(f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log")
-            subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.aux"], shell=True)  # Windows command
-            subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\output.tex"], shell=True)
-        else:
-            subprocess.run(["rm", f"output\\Grettings\\{pdf_filename.replace(".pdf","")}.log", f"output\\Grettings\\{pdf_filename}.aux"])  # Unix/Linux command
-            subprocess.run(["rm", "output.tex"])
 
 
 
@@ -110,8 +73,8 @@ def studentAccess_generator():
     """
 
     cols = ["Sch_no", "CCT", "CCT_nom"]
-    dfStudent = pd.read_csv(f"data\Students.csv", sep=",", encoding="utf-8")
-    dfSchools = pd.read_csv(f"data\Schools.csv", sep=",", encoding="utf-8", usecols=cols)
+    dfStudent = pd.read_csv(f"data/Students.csv", sep=",", encoding="utf-8")
+    dfSchools = pd.read_csv(f"data/Schools.csv", sep=",", encoding="utf-8", usecols=cols)
     dfType = pd.DataFrame(MODALIDAD)    
 
     
@@ -123,7 +86,7 @@ def studentAccess_generator():
 
     for index, row in dfStudentSchoolType.iterrows():
         
-        with open(f"template\\UserAccessSAI\\userAccess.tex", "r", encoding="utf-8") as template_file:
+        with open(f"template/UserAccessSAI/userAccess.tex", "r", encoding="utf-8") as template_file:
             latex_content = template_file.read()
 
         latex_content = latex_content.replace("{{LineID}}", str(row["linea_no"]))
@@ -137,19 +100,19 @@ def studentAccess_generator():
         with open("output.tex", "w", encoding="utf-8") as output_file:
             output_file.write(latex_content)
 
-        pdf_filename = f"output\\UserAccessSAI\\{row["CCT"] + "_" + str(row["id_sai"])}_UsuarioAcceso.pdf"
+        pdf_filename = f"output/UserAccessSAI/{row["CCT"] + "_" + str(row["id_sai"])}_UsuarioAcceso.pdf"
 
         subprocess.run(["pdflatex", "-jobname="+pdf_filename.replace(".pdf",""), "output.tex"])
 
         # Clean up auxiliary files (optional)
         # Detect the OS and use the appropriate file deletion command
-        if platform.system() == "Windows":
-            print(f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log")
-            subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.aux"], shell=True)  # Windows command
-            subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\output.tex"], shell=True)
-        else:
-            subprocess.run(["rm", f"output\\Grettings\\{pdf_filename.replace(".pdf","")}.log", f"output\\Grettings\\{pdf_filename}.aux"])  # Unix/Linux command
-            subprocess.run(["rm", "output.tex"])
+        # if platform.system() == "Windows":
+        #     print(f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log")
+        #     subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.aux"], shell=True)  # Windows command
+        #     subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\output.tex"], shell=True)
+        # else:
+        #     subprocess.run(["rm", f"output\\Grettings\\{pdf_filename.replace(".pdf","")}.log", f"output\\Grettings\\{pdf_filename}.aux"])  # Unix/Linux command
+        #     subprocess.run(["rm", "output.tex"])
 
 
             

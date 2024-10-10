@@ -60,12 +60,12 @@ INPUT /usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg
-INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg
-INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg
-INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg
+INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg
+INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg
+INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg
+INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg
 OUTPUT Greeting.pdf
-INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg
+INPUT /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/pb.jpeg
 INPUT /usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT Greeting.aux
 INPUT /usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
