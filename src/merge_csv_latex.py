@@ -5,28 +5,34 @@ import time
 
 
 MODALIDAD = {
-    "prog_est":[1,2,3,4,5,6,7,8,9]
+    "prog_est":[9,8,7,6,5,4,3,2,1]
     ,"prog_description":[
-                        "Secundaria general"
-                        ,"Secundaria técnica"
-                        ,"Telesecundaria"
-                        ,"Bachillerato general (plan anual)"
-                        ,"Bachillerato general (plan semestral)"
-                        ,"Bachillerato general (plan dos años)"
-                        ,"Bachillerato tecnológico"
-                        ,"Profesional técnico"
-                        ,"Capacitación para el trabajo"
+                        "SG"
+                        ,"ST"
+                        ,"TE"
+                        ,"BG (PA)"
+                        ,"BG (PS)"
+                        ,"BG (P2A)"
+                        ,"BT"
+                        ,"PT"
+                        ,"CPT"
     ]
 }
 
 # Function to convert a string to camel case
 def to_camel_case(text):
+    """
+    Function to change to camel case and standard the input text
+    """
     words = text.split()
     # Capitalize the first letter of each word except the first one, and then join them
     return ' '.join(word.capitalize() for word in words)
 
 
 def grettings_generator():
+    """
+    Function to generate a PDF File (Greeting Document) from LaTeX using python to get info from csv
+    """
 
     dfSchools = pd.read_csv("data\Schools.csv", sep=",", encoding="utf-8")
     dfSchools["dir_nom"] = dfSchools["dir_nom"].apply(to_camel_case)
@@ -62,6 +68,9 @@ def grettings_generator():
             subprocess.run(["rm", "output.tex"])
 
 def principalAccess_generator():
+    """
+    Function to generate a PDF File (Login Access Document) from LaTeX using python to get info from csv
+    """    
 
     dfSchools = pd.read_csv(f"data\Schools.csv", sep=",", encoding="utf-8")
     dfSchools["dir_nom"] = dfSchools["dir_nom"].apply(to_camel_case)
@@ -90,17 +99,21 @@ def principalAccess_generator():
         if platform.system() == "Windows":
             print(f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log")
             subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.log", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\{pdf_filename.replace(".pdf","")}.aux"], shell=True)  # Windows command
+            subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\output.tex"], shell=True)
         else:
             subprocess.run(["rm", f"output\\Grettings\\{pdf_filename.replace(".pdf","")}.log", f"output\\Grettings\\{pdf_filename}.aux"])  # Unix/Linux command
 
         # Optionally, remove the .tex file after PDF generation if not needed
         if platform.system() == "Windows":
-            subprocess.run(["del", f"C:\\Users\\cesar.castillo\\CC_Ceneval\\Desarrollo\\MergeReports\\output.tex"], shell=True)
+            
         else:
             subprocess.run(["rm", "output.tex"])
 
 
 def studentAccess_generator():
+    """
+    Function to generate a PDF File (Student Login Access Document) from LaTeX using python to get info from csv
+    """
 
     cols = ["Sch_no", "CCT", "CCT_nom"]
     dfStudent = pd.read_csv(f"data\Students.csv", sep=",", encoding="utf-8")
@@ -153,9 +166,8 @@ if __name__ == "__main__":
 
     print("Begin Task : ", start_time)
 
-    grettings_generator()
-    # principalAccess_generator()
-    # studentAccess_generator()
+    grettings_generator()    
+    studentAccess_generator()
 
 
     end_time = time.strftime("%H:%M:%S", time.localtime())

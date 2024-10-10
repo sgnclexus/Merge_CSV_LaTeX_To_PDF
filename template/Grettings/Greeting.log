@@ -1,21 +1,21 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.11)  27 SEP 2024 13:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.3)  3 OCT 2024 01:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/template/Grettings/Greeting.tex
-(c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/template/Grettings/Greeting.tex
+**/Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/template/Grettings/Greeting.tex
+(/Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/template/Grettings/Greeting.tex
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-03-14>
-(c:/texlive/2024/texmf-dist/tex/latex/base/letter.cls
+L3 programming layer <2024-02-20>
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/letter.cls
 Document Class: letter 2021/12/07 v1.3c Standard LaTeX document class
-(c:/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \longindentation=\dimen140
 \indentedwidth=\dimen141
 \labelcount=\count188
-) (c:/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
 Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@headwidth=\skip48
 \f@nch@O@elh=\skip49
@@ -26,29 +26,29 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip54
 \f@nch@O@olf=\skip55
 \f@nch@O@orf=\skip56
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
- (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen142
 \Gin@req@width=\dimen143
-) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count189
@@ -63,21 +63,21 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen150
 \Gm@layoutvoffset=\dimen151
 \Gm@dimlist=\toks18
-) (c:/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
- (c:/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (c:/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+ (/usr/local/texlive/2024/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (c:/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (c:/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count192
-)) (c:/texlive/2024/texmf-dist/tex/latex/psnfss/courier.sty
+)) (/usr/local/texlive/2024/texmf-dist/tex/latex/psnfss/courier.sty
 Package: courier 2020/03/25 PSNFSS-v9.3 (WaS) 
-) (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-03-14 L3 backend support: PDF output (pdfTeX)
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count193
 \l__pdf_internal_box=\box51
 ) (./Greeting.aux)
@@ -97,7 +97,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
- (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count194
 \scratchdimen=\dimen152
@@ -110,10 +110,10 @@ LaTeX Font Info:    ... okay on input line 21.
 \MPnumerator=\count198
 \makeMPintoPDFobject=\count199
 \everyMPtoPDFconversion=\toks20
-) (c:/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (c:/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 *geometry* driver: auto-detecting
@@ -150,37 +150,32 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/AAD.png, id=1, 82.17pt x 105.93pt>
-File: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/AAD.png Graphic file (type png)
-<use C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/AAD.png>
-Package pdftex.def Info: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/AAD.png  used on input line 48.
-(pdftex.def)             Requested size: 50.58878pt x 65.21686pt.
-<C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/header_ceneval.jpg, id=3, 332.74312pt x 129.48375pt>
-File: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/header_ceneval.jpg Graphic file (type jpg)
-<use C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/header_ceneval.jpg>
-Package pdftex.def Info: C:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/header_ceneval.jpg  used on input line 56.
+</Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg, id=1, 332.74312pt x 129.48375pt>
+File: /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg Graphic file (type jpg)
+<use /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg>
+Package pdftex.def Info: /Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg  used on input line 56.
 (pdftex.def)             Requested size: 180.67499pt x 70.30939pt.
 [1
 
-{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/header_ceneval.jpg> <c:/Users/cesar.castillo/CC_Ceneval/Desarrollo/MergeReports/img/AAD.png>] (./Greeting.aux)
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map} </Users/cesaralejandrocastilloalvarado/Documents/Desarrollos/Merge_CSV_LaTeX_To_PDF/img/header_ceneval.jpg>] (./Greeting.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-03-14>
+L3 programming layer <2024-02-20>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 2707 strings out of 474104
- 43880 string characters out of 5747502
- 1930496 words of memory out of 5000000
- 25086 multiletter control sequences out of 15000+600000
+ 2704 strings out of 474116
+ 44163 string characters out of 5743682
+ 1930187 words of memory out of 5000000
+ 25071 multiletter control sequences out of 15000+600000
  558674 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,15n,65p,622b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on Greeting.pdf (1 page, 49104 bytes).
+ 57i,15n,65p,646b,325s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
+Output written on Greeting.pdf (1 page, 46063 bytes).
 PDF statistics:
- 22 PDF objects out of 1000 (max. 8388607)
- 11 compressed objects within 1 object stream
+ 19 PDF objects out of 1000 (max. 8388607)
+ 10 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
